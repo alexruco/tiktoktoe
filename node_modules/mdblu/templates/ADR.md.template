@@ -1,0 +1,100 @@
+---
+title: "Architectural Decision Record"
+type: documentation
+tags: [documentation, architecture, decision]
+---
+
+# ADR-XXXX: {{PROJECT_NAME}}
+
+**Date:** {{DATE}}
+**Author:** {{AUTHOR}}
+**Status:** Proposed
+
+---
+
+<!--
+INSTRUCTIONS FOR THE MODEL:
+Your output must be this document with every section filled in. Do not write prose, summaries, or commentary outside the template structure.
+The prompt below describes an architectural decision to be documented. Use it to populate each section.
+- Context: the forces and constraints that made this decision necessary.
+- Decision: one clear, active-voice sentence starting with "We will ...".
+- Rationale: why this option over the alternatives.
+- Alternatives: real options considered; why each was rejected.
+- Consequences: honest trade-offs, including negatives.
+- Remove HTML comments from the final output.
+- Do not leave placeholder text, generic labels, or "..." in any field.
+- Do not add, remove, or reorder sections.
+-->
+
+## Context
+
+> {{PROMPT}}
+
+<!-- What situation, constraint, or need forces a decision here? -->
+
+## Decision
+
+<!-- One clear, active-voice sentence. -->
+
+**We will ...**
+
+## Rationale
+
+<!-- Why this option over the alternatives? What factors were decisive? -->
+
+### Pros
+
+-
+-
+
+### Cons
+
+-
+-
+
+## Alternatives Considered
+
+### Option A: <!-- name -->
+
+**Description:**
+
+**Pros:**
+
+**Cons:**
+
+**Why rejected:**
+
+### Option B: <!-- name -->
+
+**Description:**
+
+**Pros:**
+
+**Cons:**
+
+**Why rejected:**
+
+## Consequences
+
+### Positive
+
+-
+
+### Negative
+
+-
+
+### Risks
+
+-
+
+## Implementation Notes
+
+<!-- Specific steps, migrations, or flag changes needed to act on this decision -->
+
+---
+
+*Provided by [mdblu](https://github.com/ruco-ai/mdblu)*
+
+---
+*Made with [mdblu](https://github.com/ruco-ai/mdblu) · source: `templates/ADR.md.template`*

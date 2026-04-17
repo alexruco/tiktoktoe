@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "mdblu": "github:ruco-ai/mdblu"
+  }
+}

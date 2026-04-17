@@ -1,0 +1,109 @@
+---
+title: "Open Questions"
+type: planning
+tags: [planning, scoping, ai-workflow]
+---
+
+# Open Questions: {{PROJECT_NAME}}
+
+**Date:** {{DATE}}
+**Requested by:** {{AUTHOR}}
+**Status:** Awaiting dev input
+
+---
+
+<!--
+INSTRUCTIONS FOR THE MODEL:
+Your output must be this document with every section filled in. Do not write prose, summaries, or commentary outside the template structure.
+The prompt below describes a project or feature in progress. Generate only the question categories and questions that are genuinely unknown and blocking or likely to affect the implementation.
+- Do not include categories that are fully resolved by the prompt.
+- Each question must have a clear "Why it matters" line so dev understands the impact of their answer.
+- Provide answer scaffolding (checkbox options, blank field, or short list) appropriate to the question type.
+- Do not invent questions for completeness — only ask what is actually unclear.
+- Remove HTML comments from the final output.
+- Do not add, remove, or reorder sections. You may omit entire categories if not relevant.
+- End with the "How to return this doc" section unchanged.
+-->
+
+## Context
+
+> {{PROMPT}}
+
+---
+
+<!-- For each relevant category below, list only the questions that are genuinely unresolved.
+     Omit the entire category block if nothing is unknown in that area. -->
+
+## Scope & Goals
+
+<!-- Q: What is in scope? What is explicitly out? What does "done" look like for v1? -->
+
+**Q1:**
+_Why it matters:_
+- [ ] Option A
+- [ ] Option B
+- [ ] Other: ___
+
+---
+
+## Tech Stack & Environment
+
+<!-- Q: Language, framework, runtime, deployment target, existing codebase constraints -->
+
+**Q1:**
+_Why it matters:_
+Answer: ___
+
+---
+
+## Data & State
+
+<!-- Q: Data sources, storage, schemas, persistence requirements, data ownership -->
+
+**Q1:**
+_Why it matters:_
+Answer: ___
+
+---
+
+## Integrations & Dependencies
+
+<!-- Q: External services, APIs, auth providers, third-party tools -->
+
+**Q1:**
+_Why it matters:_
+Answer: ___
+
+---
+
+## Users & Behavior
+
+<!-- Q: Who uses this? What do they do? Edge cases, error states, permissions -->
+
+**Q1:**
+_Why it matters:_
+Answer: ___
+
+---
+
+## Constraints & Non-Negotiables
+
+<!-- Q: Performance, security, compliance, deadlines, budget, team conventions -->
+
+**Q1:**
+_Why it matters:_
+Answer: ___
+
+---
+
+## How to Return This Doc
+
+Fill in the answers above, then pass this document back as your next prompt.
+You do not need to add context — the filled answers are enough to continue.
+
+---
+
+*Provided by [mdblu](https://github.com/ruco-ai/mdblu)*
+
+---
+*Made with [mdblu](https://github.com/ruco-ai/mdblu) · source: `templates/OPEN-QUESTIONS.md.template`*

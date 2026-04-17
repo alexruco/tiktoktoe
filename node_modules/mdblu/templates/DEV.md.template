@@ -1,0 +1,109 @@
+---
+title: "Developer Guide"
+type: documentation
+tags: [documentation, developer-guide, reference]
+---
+
+# Developer Guide: {{PROJECT_NAME}}
+
+**Date:** {{DATE}}
+**Author:** {{AUTHOR}}
+
+---
+
+<!--
+INSTRUCTIONS FOR THE MODEL:
+Your output must be this document with every section filled in. Do not write prose, summaries, or commentary outside the template structure.
+The prompt below describes a project or development context. Use it to populate each section.
+- Derive the actual language, tools, and commands from the prompt — do not assume Python/ruff/pytest.
+- Prerequisites and Setup: reflect the real stack from the prompt.
+- Architecture Overview: real modules and responsibilities, not generic descriptions.
+- Environment Variables and CI/CD: if not mentioned in the prompt, write "TBD".
+- Remove HTML comments from the final output.
+- Do not leave placeholder text, generic labels, or language defaults that don't match the project.
+- Do not add, remove, or reorder sections.
+-->
+
+## Context
+
+> {{PROMPT}}
+
+---
+
+## Prerequisites
+
+<!-- List the actual runtime, tools, and dependencies needed -->
+
+-
+-
+
+## Setup
+
+```bash
+git clone <repo-url>
+cd {{PROJECT_NAME}}
+# Install dependencies
+```
+
+## Development Workflow
+
+### Running Tests
+
+```bash
+```
+
+### Linting & Formatting
+
+```bash
+```
+
+### Type Checking
+
+```bash
+```
+
+## Architecture Overview
+
+<!-- Describe the real key modules and their responsibilities -->
+
+## Key Design Decisions
+
+<!-- List real decisions visible in or implied by the prompt -->
+
+1.
+2.
+
+## Common Tasks
+
+### Adding a New Feature
+
+1. Create a feature branch: `git checkout -b feat/my-feature`
+2. Implement the feature
+3. Add tests
+4. Submit a PR
+
+### Debugging
+
+```bash
+```
+
+## Environment Variables
+
+| Variable | Required | Description |
+|----------|----------|-------------|
+|          |          |             |
+
+## CI/CD
+
+<!-- Describe the CI pipeline and deployment process -->
+
+## Deployment
+
+<!-- Deployment steps and target environments -->
+
+---
+
+*Provided by [mdblu](https://github.com/ruco-ai/mdblu)*
+
+---
+*Made with [mdblu](https://github.com/ruco-ai/mdblu) · source: `templates/DEV.md.template`*

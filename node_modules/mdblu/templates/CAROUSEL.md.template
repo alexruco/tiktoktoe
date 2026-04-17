@@ -1,0 +1,207 @@
+---
+tags:
+- content
+- carousel
+- linkedin
+- social
+title: Carousel Content
+type: content
+---
+
+# Carousel: {{CAROUSEL_TITLE}}
+
+**Date:** {{DATE}} **Author:** {{AUTHOR}} **Platform:** {{PLATFORM}}
+(LinkedIn / Instagram / X) **Audience:** {{AUDIENCE}} **Goal:** {{GOAL}}
+(Awareness / Education / Conversion)
+
+------------------------------------------------------------------------
+
+```{=html}
+<!--
+INSTRUCTIONS FOR THE MODEL:
+
+Your output must be this document with every section filled in.
+Do not write outside this template.
+
+Rules:
+- Each slide must move the story forward
+- 3–5 bullet points max per slide
+- Short, punchy copy
+- Clear progression
+- Remove comments in final output
+-->
+```
+# Carousel Structure
+
+## Slide 1 --- Hook
+
+### Headline
+
+{{HOOK_HEADLINE}}
+
+### Subheadline
+
+{{HOOK_SUBHEADLINE}}
+
+### Visual Direction
+
+{{HOOK_VISUAL}}
+
+------------------------------------------------------------------------
+
+## Slide 2 --- Problem
+
+### Problem Statement
+
+{{PROBLEM_STATEMENT}}
+
+### Why This Happens
+
+-   {{PROBLEM_REASON_1}}
+-   {{PROBLEM_REASON_2}}
+-   {{PROBLEM_REASON_3}}
+
+### Transition
+
+{{PROBLEM_TRANSITION}}
+
+------------------------------------------------------------------------
+
+## Slide 3 --- Step 1
+
+### Title
+
+1/ {{STEP_1_TITLE}}
+
+### Key Points
+
+-   {{STEP_1_POINT_1}}
+-   {{STEP_1_POINT_2}}
+-   {{STEP_1_POINT_3}}
+-   {{STEP_1_POINT_4}}
+
+### Visual Direction
+
+{{STEP_1_VISUAL}}
+
+------------------------------------------------------------------------
+
+## Slide 4 --- Step 2
+
+### Title
+
+2/ {{STEP_2_TITLE}}
+
+### Key Points
+
+-   {{STEP_2_POINT_1}}
+-   {{STEP_2_POINT_2}}
+-   {{STEP_2_POINT_3}}
+-   {{STEP_2_POINT_4}}
+
+### Visual Direction
+
+{{STEP_2_VISUAL}}
+
+------------------------------------------------------------------------
+
+## Slide 5 --- Step 3
+
+### Title
+
+3/ {{STEP_3_TITLE}}
+
+### Key Points
+
+-   {{STEP_3_POINT_1}}
+-   {{STEP_3_POINT_2}}
+-   {{STEP_3_POINT_3}}
+-   {{STEP_3_POINT_4}}
+
+### Visual Direction
+
+{{STEP_3_VISUAL}}
+
+------------------------------------------------------------------------
+
+## Slide 6 --- Summary
+
+### Recap
+
+1.  {{SUMMARY_1}}
+2.  {{SUMMARY_2}}
+3.  {{SUMMARY_3}}
+
+### Key Message
+
+{{SUMMARY_MESSAGE}}
+
+------------------------------------------------------------------------
+
+## Slide 7 --- CTA
+
+### CTA Text
+
+{{CTA_TEXT}}
+
+### CTA Action
+
+{{CTA_ACTION}}
+
+### Visual Direction
+
+{{CTA_VISUAL}}
+
+------------------------------------------------------------------------
+
+# Caption
+
+## Caption Text
+
+{{CAPTION_TEXT}}
+
+------------------------------------------------------------------------
+
+# Hashtags
+
+-   {{HASHTAG_1}}
+-   {{HASHTAG_2}}
+-   {{HASHTAG_3}}
+-   {{HASHTAG_4}}
+-   {{HASHTAG_5}}
+
+------------------------------------------------------------------------
+
+# Metadata
+
+## Funnel Stage
+
+-   [ ] TOFU
+-   [ ] MOFU
+-   [ ] BOFU
+
+## Content Style
+
+-   [ ] Educational
+-   [ ] Opinion
+-   [ ] Framework
+-   [ ] Case Study
+-   [ ] Tutorial
+
+------------------------------------------------------------------------
+
+# Quality Checklist
+
+-   [ ] Strong hook
+-   [ ] Clear progression
+-   [ ] One idea per slide
+-   [ ] Concise bullets
+-   [ ] Clear CTA
+-   [ ] Consistent tone
+
+------------------------------------------------------------------------
+
+*Provided by mdblu Carousel Template*
+
+---
+*Made with [mdblu](https://github.com/ruco-ai/mdblu) · source: `templates/CAROUSEL.md.template`*

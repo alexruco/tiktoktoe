@@ -1,0 +1,93 @@
+---
+title: "Handoff Document"
+type: post-implementation
+tags: [handoff, documentation, reporting]
+---
+
+# Handoff: {{PROJECT_NAME}}
+
+**Date:** {{DATE}}
+**Author:** {{AUTHOR}}
+**Version:** v1
+
+---
+
+<!--
+INSTRUCTIONS FOR THE MODEL:
+Your output must be this document with every section filled in. Do not write prose, summaries, or commentary outside the template structure.
+The prompt below describes what was just built (v1 of a project or feature). Use it to populate each section.
+- What Was Built: concrete deliverables, not intentions.
+- How to Run: real commands derived from the actual stack — do not assume any language or tool.
+- Shortcuts & Assumptions: be honest about what was stubbed, hardcoded, or deferred. Dev needs to know before touching the code.
+- Known Issues: only real issues observed or reasonably inferred — not hypothetical risks.
+- Next Steps: tag each [BOT] or [HUMAN]. BOT = an AI agent can implement from the current codebase. HUMAN = requires judgment, review, or external input.
+- Review Checklist: concrete things dev should verify before treating this as production-ready.
+- Remove HTML comments from the final output.
+- Do not leave placeholder text or empty sections.
+- Do not add, remove, or reorder sections.
+-->
+
+## What Was Built
+
+> {{PROMPT}}
+
+---
+
+<!-- List the concrete deliverables: files created, endpoints added, components built, etc. -->
+
+-
+-
+
+## How to Run
+
+```bash
+# Install dependencies
+
+# Run in development
+
+# Run tests
+
+# Build for production (if applicable)
+```
+
+## Shortcuts & Assumptions
+
+<!-- Things that were hardcoded, stubbed, skipped, or assumed true during this build.
+     Dev must know these before extending or debugging the code. -->
+
+| Item | What was done | What it should become |
+|------|--------------|----------------------|
+|      |              |                      |
+
+## Known Issues
+
+<!-- Real bugs or rough edges observed or reasonably inferred from the build. -->
+
+| Issue | Severity | Notes |
+|-------|----------|-------|
+|       |          |       |
+
+## Next Steps
+
+<!-- Ordered by priority. Tag each [BOT] or [HUMAN].
+     BOT = implementable by an AI agent from the current codebase.
+     HUMAN = requires judgment, coordination, external input, or review. -->
+
+- TODO [BOT]:
+- TODO [HUMAN]:
+
+## Review Checklist
+
+<!-- Things dev should manually verify before treating this as production-ready. -->
+
+- [ ] TODO: Code runs locally without errors
+- [ ] TODO: Tests pass
+- [ ] TODO:
+- [ ] TODO:
+
+---
+
+*Provided by [mdblu](https://github.com/ruco-ai/mdblu)*
+
+---
+*Made with [mdblu](https://github.com/ruco-ai/mdblu) · source: `templates/HANDOFF.md.template`*

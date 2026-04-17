@@ -1,0 +1,105 @@
+---
+title: "Architecture Overview"
+type: documentation
+tags: [documentation, architecture, reference]
+---
+
+# Architecture: {{PROJECT_NAME}}
+
+**Date:** {{DATE}}
+**Author:** {{AUTHOR}}
+
+---
+
+<!--
+INSTRUCTIONS FOR THE MODEL:
+Your output must be this document with every section filled in. Do not write prose, summaries, or commentary outside the template structure.
+The prompt below describes a system or project to be documented architecturally. Use it to populate each section.
+- Replace all placeholder component names with real ones derived from the prompt.
+- System Context: ASCII art showing the system's place in its ecosystem.
+- Component Details: one subsection per real component; remove template stubs.
+- Data Model: real entities and fields; no generic examples.
+- For genuinely unknown information, write "TBD — [what needs clarification]".
+- Remove HTML comments from the final output.
+- Do not leave generic labels, placeholder text, or "..." in any field.
+- Do not add, remove, or reorder top-level sections.
+-->
+
+## Overview
+
+> {{PROMPT}}
+
+---
+
+## System Context
+
+<!-- How does this system fit into the broader ecosystem? What does it depend on or serve? -->
+
+```
+[External System] ---> [{{PROJECT_NAME}}] ---> [External System]
+```
+
+## Components
+
+<!-- One row per real component -->
+
+| Component | Responsibility | Technology |
+|-----------|---------------|------------|
+|           |               |            |
+
+## Data Flow
+
+```
+1.
+2.
+3.
+```
+
+## Component Details
+
+<!-- One subsection per component listed above -->
+
+### <!-- Component name -->
+
+**Responsibility:**
+
+**Key interfaces:**
+```
+```
+
+**Dependencies:**
+
+## Data Model
+
+```
+<!-- Real entities and fields; remove this comment when filled -->
+```
+
+## Security Architecture
+
+- **Authentication:**
+- **Authorization:**
+- **Data encryption:**
+
+## Scalability & Performance
+
+- **Expected load:**
+- **Bottlenecks:**
+- **Scaling strategy:**
+
+## Observability
+
+- **Logging:**
+- **Metrics:**
+- **Tracing:**
+
+## Decision Log
+
+See [ADR/](ADR/) for architectural decision records.
+
+---
+
+*Provided by [mdblu](https://github.com/ruco-ai/mdblu)*
+
+---
+*Made with [mdblu](https://github.com/ruco-ai/mdblu) · source: `templates/ARCHITECTURE.md.template`*

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "xtage": {
+      "command": "node",
+      "args": ["/Users/ruco/projects/main/xtage/dist/cli.js"]
+    }
+  }
+}

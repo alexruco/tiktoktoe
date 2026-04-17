@@ -1,0 +1,89 @@
+---
+title: "Mission Brief"
+type: planning
+tags: [planning, scoping, ai-workflow]
+---
+
+# Mission: {{PROJECT_NAME}}
+
+**Date:** {{DATE}}
+**Author:** {{AUTHOR}}
+
+---
+
+<!--
+INSTRUCTIONS FOR THE MODEL:
+Your output must be this document with every section filled in. Do not write prose, summaries, or commentary outside the template structure.
+The prompt below is the raw input describing a task, feature, or problem. Use it to populate each section.
+
+Rules:
+- Each goal must be tagged [BOT] or [HUMAN]:
+  - [BOT]   — implementable by an AI agent from the spec alone (coding, scaffolding, configuration, tests)
+  - [HUMAN] — requires human judgment, domain decisions, external coordination, creative input, or review
+- Order goals by dependency: a goal that blocks others must appear before them.
+- A [HUMAN] goal in the middle of a sequence signals a mandatory checkpoint before the next [BOT] batch can proceed.
+- Use real descriptions derived from the prompt — not placeholder names like "Goal 1".
+- Problem Statement: what is broken or missing without this mission.
+- Non-Goals: explicitly out of scope to prevent drift.
+- Success Criteria: how we know the mission is done.
+- Deliverables: concrete outputs.
+- Fill every table; add or remove rows as needed.
+- Remove HTML comments from the final output.
+- Do not leave placeholder text, generic labels, or empty cells.
+- Do not add, remove, or reorder sections.
+-->
+
+## Objective
+
+> {{PROMPT}}
+
+---
+
+## Problem Statement
+
+<!-- What is broken, missing, or painful without this mission? Be specific. -->
+
+## Goals
+
+<!-- Concrete, testable goals. Each should be verifiable at completion. -->
+
+- TODO [BOT]:
+- TODO [HUMAN]:
+
+## Non-Goals
+
+<!-- Explicitly out of scope. Prevents scope creep. -->
+
+-
+-
+
+## Success Criteria
+
+<!-- How will we know this mission is done? -->
+
+| Criterion | Measurement | Target |
+|-----------|-------------|--------|
+|           |             |        |
+
+## Constraints
+
+<!-- Known limits that shape the approach -->
+
+- **Time:**
+- **Resources:**
+- **Technical:**
+
+## Deliverables
+
+<!-- Concrete outputs expected at completion -->
+
+1.
+2.
+3.
+
+---
+
+*Provided by [mdblu](https://github.com/ruco-ai/mdblu)*
+
+---
+*Made with [mdblu](https://github.com/ruco-ai/mdblu) · source: `templates/MISSION.md.template`*

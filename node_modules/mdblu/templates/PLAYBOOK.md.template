@@ -1,0 +1,104 @@
+---
+title: "Operational Playbook"
+type: documentation
+tags: [documentation, runbook, reference]
+---
+
+# Playbook: {{PROJECT_NAME}}
+
+**Date:** {{DATE}}
+**Author:** {{AUTHOR}}
+
+---
+
+<!--
+INSTRUCTIONS FOR THE MODEL:
+Your output must be this document with every section filled in. Do not write prose, summaries, or commentary outside the template structure.
+The prompt below describes an operational procedure, incident response, or repeatable process. Use it to populate each section.
+- Scope: real scenarios this playbook covers.
+- Prerequisites: real access, tools, and permissions needed.
+- Runbook: actual steps with real commands derived from the prompt.
+- Rollback: how to undo the procedure if it goes wrong.
+- Common Issues: failure modes likely given the procedure described.
+- Remove HTML comments from the final output.
+- Do not leave placeholder text, "...", or generic step names.
+- Do not add, remove, or reorder sections.
+-->
+
+## Purpose
+
+> {{PROMPT}}
+
+---
+
+## Scope
+
+This playbook covers:
+
+-
+-
+
+## Prerequisites
+
+- [ ] TODO:
+- [ ] TODO:
+
+## Runbook
+
+### Step 1: Preparation
+
+```bash
+```
+
+**Expected output:**
+
+**If it fails:**
+
+### Step 2: Execution
+
+```bash
+```
+
+**Expected output:**
+
+**If it fails:**
+
+### Step 3: Verification
+
+```bash
+```
+
+**Expected output:**
+
+## Rollback Procedure
+
+1.
+2.
+
+```bash
+```
+
+## Escalation
+
+| Condition | Action | Contact |
+|-----------|--------|---------|
+|           |        |         |
+
+## Post-Run Checklist
+
+- [ ] TODO: Confirm system is healthy
+- [ ] TODO: Update incident log
+- [ ] TODO: Notify stakeholders
+
+## Common Issues
+
+| Symptom | Cause | Resolution |
+|---------|-------|------------|
+|         |       |            |
+
+---
+
+*Provided by [mdblu](https://github.com/ruco-ai/mdblu)*
+
+---
+*Made with [mdblu](https://github.com/ruco-ai/mdblu) · source: `templates/PLAYBOOK.md.template`*

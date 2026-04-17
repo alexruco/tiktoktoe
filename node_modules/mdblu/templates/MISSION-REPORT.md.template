@@ -1,0 +1,96 @@
+---
+title: "Mission Report"
+type: post-implementation
+tags: [reporting, retrospective, ai-workflow]
+---
+
+# Mission Report: {{PROJECT_NAME}}
+
+**Date:** {{DATE}}
+**Author:** {{AUTHOR}}
+
+---
+
+<!--
+INSTRUCTIONS FOR THE MODEL:
+Your output must be this document with every section filled in. Do not write prose, summaries, or commentary outside the template structure.
+You are given a GitHub issue thread (title, description, and comments) as the prompt. The comments include a MISSION document previously forged for this issue.
+- Replace every placeholder with real content derived from the issue thread.
+- For checkboxes, mark exactly one outcome.
+- Fill every table row with actual data; add rows if needed.
+- Remove HTML comments from the final output.
+- Do not leave any section empty or with placeholder text.
+- Do not add, remove, or reorder sections.
+-->
+
+## Mission Context
+
+> {{PROMPT}}
+
+---
+
+## Outcome
+
+- [ ] Success
+- [ ] Partial Success
+- [ ] Failed
+
+**Overall Status:** <!-- Green / Yellow / Red — pick one based on outcome -->
+
+## What Was Accomplished
+
+<!-- List concrete deliverables or actions completed, based on the issue thread -->
+
+1.
+2.
+3.
+
+## What Was Not Accomplished
+
+<!-- List goals from the mission that were not completed, or write "None" -->
+
+1.
+2.
+
+## Key Decisions Made
+
+<!-- Extract decisions visible in the issue thread or implied by the mission -->
+
+| Decision | Rationale | Impact |
+|----------|-----------|--------|
+|          |           |        |
+
+## Issues Encountered
+
+<!-- List blockers, errors, or unexpected problems mentioned in the thread -->
+
+| Issue | Severity | Resolution |
+|-------|----------|------------|
+|       |          |            |
+
+## Lessons Learned
+
+### What Went Well
+
+-
+-
+
+### What Could Be Improved
+
+-
+-
+
+## Next Steps / Follow-up Actions
+
+<!-- Derive from open items, TODOs, or unresolved points in the issue thread -->
+<!-- Tag each action [BOT] or [HUMAN]: BOT = implementable by an AI agent; HUMAN = requires judgment, coordination, or review -->
+
+- TODO [BOT]: Action — Owner: — Due:
+- TODO [HUMAN]: Action — Owner: — Due:
+
+---
+
+*Provided by [mdblu](https://github.com/ruco-ai/mdblu)*
+
+---
+*Made with [mdblu](https://github.com/ruco-ai/mdblu) · source: `templates/MISSION-REPORT.md.template`*

@@ -1,0 +1,46 @@
+---
+title: "Bootstrap Task List"
+type: planning
+tags: [planning, task-management, scoping]
+---
+
+# Bootstrap: {{PROJECT_NAME}}
+
+**Date:** {{DATE}}
+**Author:** {{AUTHOR}}
+
+---
+
+<!--
+INSTRUCTIONS FOR THE MODEL:
+Your output must be this document with every section filled in. Do not write prose, summaries, or commentary outside the template structure.
+The prompt below is a project specification (SPEC). Decompose it into an ordered, sequenced list of tasks.
+
+Rules:
+- Each task must be tagged [BOT] or [HUMAN]:
+  - [BOT]   — implementable by an AI agent from the spec alone (coding, scaffolding, configuration, tests)
+  - [HUMAN] — requires human judgment, domain decisions, external coordination, creative input, or review
+- Order tasks by dependency: a task that blocks others must appear before them.
+- A [HUMAN] task in the middle of a sequence signals a mandatory checkpoint before the next [BOT] batch can proceed.
+- Size each [BOT] task to be a single navg8 mission (one coherent unit of implementation, not too broad, not too granular).
+- Use real task descriptions derived from the spec — not placeholder names like "Task 1".
+- Do not add, remove, or reorder sections.
+- Remove HTML comments from the final output.
+-->
+
+## Spec
+
+> {{PROMPT}}
+
+---
+
+## Tasks
+
+<!-- List all tasks in dependency order. Mix [BOT] and [HUMAN] tags as needed. -->
+
+- TODO [BOT]:
+- TODO [HUMAN]:
+
+---
+
+*Provided by [mdblu](https://github.com/ruco-ai/mdblu)*

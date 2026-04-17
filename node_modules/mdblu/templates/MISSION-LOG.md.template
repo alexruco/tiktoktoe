@@ -1,0 +1,142 @@
+---
+title: "Mission Log"
+type: planning
+tags: [planning, execution, reporting, ai-workflow]
+---
+
+# Mission: {{PROJECT_NAME}}
+
+**Date:** {{DATE}}
+**Author:** {{AUTHOR}}
+**Status:** `open` <!-- open | in-progress | done | cancelled -->
+
+---
+
+<!--
+INSTRUCTIONS FOR THE MODEL:
+This document has two phases. Fill them at different points in the mission lifecycle.
+
+PHASE 1 — BRIEF (fill at mission start from the prompt):
+- Objective through Deliverables.
+- Tag every goal [BOT] or [HUMAN]:
+  - [BOT]   — implementable by an AI agent from the spec alone
+  - [HUMAN] — requires human judgment, coordination, or review
+- Order goals by dependency; a [HUMAN] goal signals a mandatory checkpoint.
+- Fill every table; use real descriptions, not placeholders.
+- Set Status to `open`.
+
+PHASE 2 — REPORT (fill progressively or at mission close):
+- Outcome through Next Steps.
+- Add Progress Log entries at any point during execution.
+- Set Status to `in-progress` during execution, then `done` or `cancelled` at close.
+
+Rules for both phases:
+- Remove HTML comments from the final output.
+- Do not leave placeholder text, generic labels, or empty cells.
+- Do not add, remove, or reorder sections.
+-->
+
+---
+
+## Objective
+
+> {{PROMPT}}
+
+## Problem Statement
+
+<!-- What is broken, missing, or painful without this mission? Be specific. -->
+
+## Goals
+
+<!-- Concrete, testable goals. Each should be verifiable at completion. -->
+
+- TODO [BOT]:
+- TODO [HUMAN]:
+
+## Non-Goals
+
+<!-- Explicitly out of scope. Prevents scope creep. -->
+
+-
+
+## Success Criteria
+
+| Criterion | Measurement | Target |
+|-----------|-------------|--------|
+|           |             |        |
+
+## Constraints
+
+- **Time:**
+- **Resources:**
+- **Technical:**
+
+## Deliverables
+
+1.
+2.
+3.
+
+---
+
+## Progress Log
+
+<!-- Add an entry each time Claude or a human makes a significant update. -->
+
+| Date | Update |
+|------|--------|
+|      |        |
+
+---
+
+## Outcome
+
+<!-- Fill at mission close -->
+
+- [ ] Success
+- [ ] Partial Success
+- [ ] Failed
+
+## What Was Accomplished
+
+1.
+2.
+3.
+
+## What Was Not Accomplished
+
+<!-- List unfinished goals, or write "None" -->
+
+1.
+
+## Key Decisions Made
+
+| Decision | Rationale | Impact |
+|----------|-----------|--------|
+|          |           |        |
+
+## Issues Encountered
+
+| Issue | Severity | Resolution |
+|-------|----------|------------|
+|       |          |            |
+
+## Lessons Learned
+
+### What Went Well
+
+-
+
+### What Could Be Improved
+
+-
+
+## Next Steps
+
+<!-- Tag each [BOT] or [HUMAN] -->
+
+- TODO [BOT]: Action — Owner: — Due:
+- TODO [HUMAN]: Action — Owner: — Due:
+
+---
+*Made with [mdblu](https://github.com/ruco-ai/mdblu) · source: `templates/MISSION-LOG.md.template`*

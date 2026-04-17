@@ -1,0 +1,28 @@
+{
+  "name": "mdblu",
+  "version": "1.0.0",
+  "description": "CLI tool to list and download mdblu markdown templates into your project",
+  "main": "bin/mdblu.js",
+  "bin": {
+    "mdblu": "bin/mdblu.js"
+  },
+  "scripts": {
+    "test": "node bin/mdblu.js list"
+  },
+  "keywords": [
+    "markdown",
+    "templates",
+    "ai",
+    "llm",
+    "scaffold",
+    "cli"
+  ],
+  "author": "Ruco",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "mdblu": "^1.0.0"
+  }
+}

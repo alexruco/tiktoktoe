@@ -1,0 +1,72 @@
+---
+title: "Task List"
+type: planning
+tags: [task-management, planning]
+---
+
+# TODO: {{PROJECT_NAME}}
+
+**Date:** {{DATE}}
+**Author:** {{AUTHOR}}
+
+---
+
+<!--
+INSTRUCTIONS FOR THE MODEL:
+Your output must be this document with every section filled in. Do not write prose, summaries, or commentary outside the template structure.
+The prompt below describes a project, feature, or work area. Derive all tasks from it.
+- Immediate: tasks that should start now — urgent or blocking items from the prompt.
+- Short-term: tasks that follow once immediate ones are done.
+- Backlog: lower-priority ideas or improvements mentioned in the prompt.
+- Leave In Progress, Completed, and Blocked empty — filled by humans over time.
+- Use real task descriptions, not placeholder names like "Task 1".
+- Remove HTML comments from the final output.
+- Do not add, remove, or reorder sections.
+-->
+
+## Context
+
+> {{PROMPT}}
+
+---
+
+## Immediate (This Sprint)
+
+- [ ] TODO:
+- [ ] TODO:
+- [ ] TODO:
+
+## Short-term (Next 2 Weeks)
+
+- [ ] TODO:
+- [ ] TODO:
+
+## Backlog
+
+- [ ] TODO:
+- [ ] TODO:
+
+## In Progress
+
+| Task | Owner | Started | Notes |
+|------|-------|---------|-------|
+|      |       |         |       |
+
+## Completed
+
+| Task | Completed On | Notes |
+|------|-------------|-------|
+|      |             |       |
+
+## Blocked
+
+| Task | Blocked By | Since |
+|------|-----------|-------|
+|      |           |       |
+
+---
+
+*Provided by [mdblu](https://github.com/ruco-ai/mdblu)*
+
+---
+*Made with [mdblu](https://github.com/ruco-ai/mdblu) · source: `templates/TODO.md.template`*

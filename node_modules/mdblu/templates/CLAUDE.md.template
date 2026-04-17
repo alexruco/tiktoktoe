@@ -1,0 +1,95 @@
+---
+title: "Claude Agent Context"
+type: implementation
+tags: [agent-context, ai-workflow, reference]
+---
+
+# Claude Agent Context: {{PROJECT_NAME}}
+
+**Date:** {{DATE}}
+**Author:** {{AUTHOR}}
+
+---
+
+<!--
+INSTRUCTIONS FOR THE MODEL:
+Your output must be this document with every section filled in. Do not write prose, summaries, or commentary outside the template structure.
+The prompt below describes a project that Claude will be working on. Use it to populate each section.
+- Derive the actual language, tools, and commands from the prompt — do not assume Python/ruff/pytest.
+- Key Files & Modules: real files and their purposes based on the prompt.
+- Conventions & Standards: the actual stack, not generic defaults.
+- Commands Claude Should Know: real commands for this project's toolchain.
+- Gotchas: anything tricky or non-obvious derived from the prompt.
+- Remove HTML comments from the final output.
+- Do not leave placeholder text, generic labels, or language defaults that don't match the project.
+- Do not add, remove, or reorder sections.
+-->
+
+## Project Context
+
+> {{PROMPT}}
+
+---
+
+## What This Project Does
+
+<!-- One clear paragraph for Claude to understand the project at a glance -->
+
+## Key Files & Modules
+
+| File/Module | Purpose |
+|-------------|---------|
+|             |         |
+
+## Conventions & Standards
+
+<!-- Fill with the actual stack derived from the prompt -->
+
+- **Language:**
+- **Formatter:**
+- **Test framework:**
+- **Commit style:**
+
+## Important Constraints
+
+<!-- Real constraints and rules Claude must follow for this project -->
+
+-
+-
+
+## Common Patterns
+
+```
+<!-- Show a representative pattern from this codebase -->
+```
+
+## Commands Claude Should Know
+
+```bash
+# Run tests
+
+# Install / build
+
+# Lint / format
+```
+
+## Gotchas & Known Issues
+
+<!-- Anything surprising or non-obvious Claude should know to avoid mistakes -->
+
+-
+-
+
+## Out of Scope
+
+<!-- What Claude should NOT do without explicit instruction -->
+
+-
+-
+
+---
+
+*Provided by [mdblu](https://github.com/ruco-ai/mdblu)*
+
+---
+*Made with [mdblu](https://github.com/ruco-ai/mdblu) · source: `templates/CLAUDE.md.template`*
