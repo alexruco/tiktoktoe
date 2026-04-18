@@ -1,0 +1,20 @@
+{
+  "mcpServers": {
+    "xtage": {
+      "type": "stdio",
+      "command": "node",
+      "args": [
+        "/Users/ruco/projects/main/xtage/dist/cli.js"
+      ],
+      "env": {}
+    },
+    "navg8": {
+      "type": "stdio",
+      "command": "node",
+      "args": [
+        "/Users/ruco/projects/main/navg8/dist/index.js"
+      ],
+      "env": {}
+    }
+  }
+}
